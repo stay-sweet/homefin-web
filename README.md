@@ -60,3 +60,7 @@ After publication, the language-specific metadata URLs are:
 | Marketing URL | `https://homefin.staysweet.dev/en/` | `https://homefin.staysweet.dev/sv/` |
 
 Existing in-app links to `/privacy` and `/support` continue to select the visitor’s language. App Store Connect metadata is managed separately.
+
+## Project knowledge and work
+
+North Production is the source of truth for current work, decisions and verification evidence: **Homefin (HOM)**, the StaySweet workspace (Project ID `6dc7aecd-aac9-4546-97ff-a18df20be2a7`). Read its Project context and [AGENTS.md](AGENTS.md) before starting. Existing technical references remain useful; keep new planning and status in North rather than parallel local files.
