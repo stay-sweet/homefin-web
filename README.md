@@ -12,7 +12,7 @@ The English/Swedish website for Homefin, a household finance app for iPhone and 
 
 The app’s `/privacy` and `/support` links resolve to directory entry pages. These, and `/`, select a language using an explicit `?lang=en` or `?lang=sv` value (also `#english` or `#svenska`), then a saved choice, then the browser language, with English as the fallback. Explicit `/en/` and `/sv/` pages always keep their language. The dropdown opens the same page in the other language and saves only that explicit choice in `homefin.language` in local storage. If storage is unavailable, navigation still works. Without JavaScript, ordinary links let visitors choose a language.
 
-Each localized page has its own title, description, canonical URL and alternate-language metadata. Update English and Swedish together. Edit the HTML directly; keep this site free of framework and build requirements. Update availability text when Homefin launches and the privacy-policy date when its content changes.
+Each localized page has its own title, description, canonical URL, alternate-language metadata and Open Graph link-preview tags. Update English and Swedish together. Edit the HTML directly; keep this site free of framework and build requirements. Update availability text when Homefin launches and the privacy-policy date when its content changes.
 
 `assets/app-icon.png` is copied unchanged from the production app artwork at `../homefin/Apps/Shared/Resources/AppIcon.icon/Assets/icon.png`. It supplies the header, home-page artwork, favicon and Apple touch icon. Keep the copy aligned with production artwork and do not use the Dev icon.
 
@@ -63,4 +63,4 @@ Existing in-app links to `/privacy` and `/support` continue to select the visito
 
 ## Project knowledge and work
 
-North Production is the source of truth for current work, decisions and verification evidence: **Homefin (HOM)**, the StaySweet workspace (Project ID `6dc7aecd-aac9-4546-97ff-a18df20be2a7`). Read its Project context and [AGENTS.md](AGENTS.md) before starting. Existing technical references remain useful; keep new planning and status in North rather than parallel local files.
+North Production is the source of truth for current work, decisions and verification evidence: **Homefin (HOM)**, the StaySweet workspace (Project ID `6dc7aecd-aac9-4546-97ff-a18df20be2a7`). Read its Project context and [AGENTS.md](AGENTS.md) before starting. Keep repository usage and technical operations here; product requirements, decisions, plans, status and evidence belong in North.
